@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+
+<body>
+    <div>
+        <h1>School Details</h1>
+        <form action="form.php">
+            <label for="name">Enter your name:</label>
+            <input type="text" placeholder="Enter your Name"><br>
+            <label for="class">Select Your Class</label>
+            <select name="class" id="class">
+                <option value="no_class">Select your class</option>
+                <option value="class 1">Class 1st</option>
+                <option value="class 2">Class 2nd</option>
+                <option value="class 3">Class 3rd</option>
+                <option value="class 4">Class 4th</option>
+                <option value="class 5">Class 5th</option>
+                <option value="class 6">Class 6th</option>
+                <option value="class 7">Class 7th</option>
+                <option value="class 8">Class 8th</option>
+                <option value="class 9">Class 9th</option>
+                <option value="class 10">Class 10th</option>
+                <option value="class 11">Class 11th</option>
+                <option value="class 12">Class 12th</option>
+            </select>
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida">Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">Section C
+            </label>
+            <label for="sectionidd">
+                <input type="radio" value="section d" name="section" id="sectionidd">Section D
+            </label>
+            <label for="sectionide">
+                <input type="radio" value="section e" name="section" id="sectionide">Section E
+            </label><br>
+            <input type="checkbox" name="single_child" id="single_child">
+            <label for="single_child">Check If Single Child</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter your feedback"></textarea>
+        </form>
+    </div>
+</body>
+
+</html>
